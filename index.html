@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The Jewellery Box</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="login.css">
+<link rel="html" href="Form.html">
+<div class="header">
+    <center>
+        <br>
+        <h1><b>The Jewellery Box</b></h1>
+        
+            <p>Legacy of Jewellers</p>
+            <br>
+    </center>
+
+<br>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="topnav">
+        <a class="active" href="#Home">Home</a>
+        <a href="https://www.amoraartsandjewels.com/search-results?q=new+arrivals">new arrivals</a>
+        <a href="#Categories">Categories</a>
+        <a href="#Gifting&More">Gifting&More</a>
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div style="padding-left:16px"></div>
+<br>
+
+
+      <section class="home" id="Home">
+        <div class="content">
+            <center><h1><br>Stunning Designs Curated For You<br></h1></center>
+        </div>
+        
+<br>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 7</div>
+              <img src="pic5.png" style="width:100%">
+              <div class="text">Natyam Collections</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 7</div>
+              <img src="pic2.png" style="width:100%">
+              <div class="text">Gold Chain</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 7</div>
+              <img src="pic1.png" style="width:100%">
+              <div class="text">Chain Set</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 7</div>
+                <img src="pic4.png" style="width:100%">
+                <div class="text">Harram</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 7</div>
+                <img src="pic3.png" style="width:100%">
+                <div class="text">Bangles</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">6 / 7</div>
+                <img src="pic6.png" style="width:100%">
+                <div class="text">Customized Jewellery</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">7 / 7</div>
+                <img src="pic7.png" style="width:100%">
+                <div class="text">Rings</div>
+              </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span>
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+            <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); 
+            }
+            </script>
+        </section>
+    </div>
+    <body>
+        <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+        <center><img src="name.png" width="1200x" height="350px">
+            <h1 class="heading">Categories</h2></center>
+                <section class="Categories" id="Categories">
+               <br> 
+
+<div class="row">
+    <div class="column">
+        <h3>Necklace</h3>
+            <a href="https://www.tanishq.co.in/shop/gold-necklaces?lang=en_IN">
+            <img src="necklace.jpeg"width="333" height="333"></a>
+    </div>
+    <div class="column">
+        <h3>Harram</h3>
+            <a href="https://www.emmadisilverjewellery.com/search?q=harram">
+            <img src="harram.jpeg"width="333" height="333"></a>
+    </div>
+    <div class="column">
+        <h3>Earrings</h3>
+        <a href="https://www.amoraartsandjewels.com/search-results?q=earrings">
+        <img src="earrings.jpeg"width="333" height="333"></a>  
+    </div>
+  </div>
+<br>
+  <div class="row">
+    <div class="column">
+        <h3>Tikka</h3>
+            <a href="https://www.amoraartsandjewels.com/tikka">
+            <img src="tikka.png"width="333" height="333"></a>
+    </div>
+    <div class="column">
+        <h3>Chokker</h3>
+            <a href="https://www.amoraartsandjewels.com/search-results?q=High+neck+Chockers">
+            <img src="chokker.jpeg"width="333" height="333"></a>
+    </div>
+    <div class="column">
+        <h3>Ear Chain</h3>
+        <a href="https://www.amoraartsandjewels.com/product-page/first-quality-flower-design-earchain">
+        <img src="earchain.png"width="333" height="333"></a>  
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="column">
+        <h3>Pearl Collection</h3>
+            <a href="https://www.purepearls.in/">
+            <img src="pearlcoll.jpeg"width="333" height="333"></a>
+    </div>
+    <div class="column">
+        <h3>Bangles</h3>
+            <a href="https://www.amoraartsandjewels.com/search-results?q=bangles">
+            <img src="bangles.png"width="333" height="333"></a>
+    </div>
+    <div class="column">
+        <h3>MangTikka</h3>
+        <a href="https://www.amoraartsandjewels.com/mangtikka">
+        <img src="Mangtikka.png"width="333" height="333"></a>  
+    </div>
+  </div>
+  <br>
+  <center><p><b><h1>Online Video Jewellery Collections</h1></b></p></center>
+    <br>
+  <div class="row">
+    <div class="column">
+        <video width="320" height="240" controls>
+            <source src="vid6.mp4" type="video/mp4">
+            <source src="vid6.ogg" type="video/ogg">
+          </video>
+    </div>
+    <div class="column">
+        <video width="320" height="240" controls>
+            <source src="video2.mp4" type="video/mp4">
+            <source src="video2.ogg" type="video/ogg">
+            
+          </video>
+    </div>
+    <div class="column">
+        <video width="320" height="240" controls>
+            <source src="video4.mp4" type="video/mp4">
+            <source src="video4.ogg" type="video/ogg">
+          </video> 
+    </div>
+  </div>
+<br>
+  <center>
+    <br>
+    <h1 class="heading">Gifting&More</h2>
+        <br>
+        <img src="gifting.png" width="1200x" height="350px">
+    </center>  
+    </section>
+    </body>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+    <body><br>
+
+      <div class="about-me">
+        <div class="about-me-text">
+          <center><p><b><h2>Shop Here for The Best Jewellery Collections</h2></b></p></center><br>
+          <p>Indians love for Jewellery is an open secret, they consider this is the best way to not just to accessorize but to build 
+            wealth too. Jewellery Box has a name for itself for the design, workmanship and for the traditional vibes theyusher.In 
+            India jewellery is often symbolized as larger than life aspect decoration- we often feel its presence in a very compelling
+             way in weddings, in family rituals, in house warming ceremonies, in temples, in festivals and every other celebration.
+          In Indian context jewellery is not seen merely as it holds a great auspicious significance. Jewellery is given as a token
+           of Shagun in majority of the Indian celebrations. Coming from an Indian household each one of us have different memories 
+           associated with our Jewellery whether big or small. Over the years Indians diversified their adornment choices from gold 
+           to diamond, platinum and silver too.
+          </p>
+        </div>
+        <img src="purity.png" alt="me" width="500" height="334">
+      </div>
+
+      <center><img src="talkative.jpeg" width="1250" height="450"></center>
+      <center><img src="feel.png" width="1250" height="300"></center>
+       <center>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <p><i class="fa fa-user"></i></p>
+            <h3>1,000+</h3>
+            <p>Partners</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <p><i class="fa fa-check"></i></p>
+            <h3>7,500+</h3>
+            <p>Customized Jewellery</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <p><i class="fa fa-smile-o"></i></p>
+            <h3>10,000+</h3>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+      </div>
+    </center> 
+
+    <footer class="footer">
+      <div class="copy"><h3>Company Branches</h3><br><br>India<br><br>USA<br><br>Japan<br><br>Canada<br><br>Sri Lanka</div>
+      <div class="about-us"><center><h3>About-Us</h3><br></center><p>Indians Love For Jewellery Is An Open Secret, They Consider This Is The<br>Best
+         Way To Not Just To Accessorize But To Build Wealth Too. Jewellery Box<br>Has A Name For Itself For The Design, Workmanship
+          And For The Traditional<br>Vibes Theyusher.In India Jewellery Is Often Symbolized As Larger Than Life<br>Aspect Decoration- We 
+          Often Feel Its Presence In A Very Compelling Way In Weddings</p></div>
+      <div class="bottom-links">
+        <div class="links">
+          <span><center>More Info</center></span>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div> 
+        <div class="links">
+          <span><center>Social Links</center></span>
+          <a href="#">facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+      
+    </footer>
+
+    <b><center><div class="right">CREATED BY JAHNAVI SV | ALL RIGHTS RESERVED</div></center></b>
+         
+    </body>
+    
+</head>
+</html>
